@@ -1,15 +1,17 @@
 package main
 
-// func TestFizzBuzzShouldReturn1WhenInput1(t *testing.T) {
-// 	input := 1
+import "testing"
 
-// 	got := FizzBuzzLevl2(input)
+func TestFizzBuzzShouldReturn1WhenInput1(t *testing.T) {
+	input := 1
 
-// 	want := "1"
-// 	if got != want {
-// 		t.Errorf("got %q but want %q", got, want)
-// 	}
-// }
+	got := FizzBuzzLevl3(input)
+
+	want := "1"
+	if got != want {
+		t.Errorf("got %q but want %q", got, want)
+	}
+}
 
 // func TestFizzBuzzShouldReturn2WhenInput2(t *testing.T) {
 // 	input := 2
